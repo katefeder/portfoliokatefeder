@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>My Home Page</title>
+</head>
+<style type="text/css">
+ h1 {
+  color: navy;
+  text-align: center;
+  font-size: 40pt;
+  font-family: futura;
+}
+
+.nav_bar {
+  background-color: navy;
+  padding: 10px;
+  margin: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  display: inline;
+  font-family: didot;
+  color: whitesmoke;
+  font-size: 16pt;
+}
+
+ .two-fold {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: repeat(1, 1fr);
+  grid-template-areas: "my-photo quick-description"
+  width: 50%;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.image-style{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+h2 {
+  font-family: futura;
+  font-size: 22pt;
+  color:  navy;
+}
+
+p{
+  font-family: didot;
+  font-size: 16pt;
+  text-align: justify;
+}
+
+</style>
+
+<body style="background-color: lightsteelblue;">
+  <div class="nav_bar">
+     <a href="Webpage1.html"><h3>Home</h3></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Webpage2.html"><h3>Portfolio</h3></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Webpage3.html"><h3>About Me</h3></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Webpage4.html"><h3>Contact Me</h3></a> &nbsp;&nbsp;&nbsp;&nbsp; 
+  </div>
+<br>
+<br>
+    <h1>Kate Feder</h1>
+
+<div class="two-fold">
+    <div class="my-photo">
+        <img src="kfphoto.jpg" class="image-style">
+    </div>
+
+    <div class="quick-description">
+        <h2>Welcome to my Website!</h2>
+        <p>Over the past year, I have created a wide variety of designs, projects, and interactive activities as parts of my design classes and as personal projects. I have chosen my favorite pieces to display here on this website, and aim to showcase my knowledge of UX/UI design, typography, graphic design, and marketing.</p> 
+    </div>
+</div>
+
+</body>
+</html>

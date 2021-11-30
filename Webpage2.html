@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>My Portfolio</title>
+</head>
+<style type="text/css">
+
+h1 {
+  color: navy;
+  text-align: center;
+  font-size: 40pt;
+  font-family: futura;
+}
+
+.nav_bar {
+  background-color: navy;
+  padding: 10px;
+  margin: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  display: inline;
+  color: whitesmoke;
+  font-size: 16pt;
+}
+
+ .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: repeat(2, 1fr);
+  grid-template-areas: "info-design interaction-design tom-nook"
+                        "poster-design value-scale proposal-mockup"
+  width: 50%;
+  margin: 20px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.image-style{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+h4 {
+  font-family: futura;
+  color: royalblue;
+  font-weight: lighter;
+  font-size: 16pt;
+  margin-top: 4px;
+}
+
+h2 {
+  font-family: futura;
+  color: navy;
+  margin: 4px;
+}
+</style>
+
+<body style="background-color: lightsteelblue;">
+  <div class="nav_bar">
+     <a href="Webpage1.html"><h3>Home</h3></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Webpage2.html"><h3>Portfolio</h3></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Webpage3.html"><h3>About Me</h3></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Webpage4.html"><h3>Contact Me</h3></a> &nbsp;&nbsp;&nbsp;&nbsp; 
+  </div>
+<br>
+<br>
+    <h1>Portfolio</h1>
+
+<div class="grid">
+    <div class="info-design">
+      <div>
+        <img src="info-design.jpg" class="image-style">
+      </div>
+       <div>
+      <h2>In The Unlikely Event Text Map</h2>
+      <h4>Information Design, 2021</h4>
+     </div>
+    </div>
+
+    <div class="interaction-design">
+      <div>
+        <img src="interaction-design.jpg" class="image-style">
+      </div>
+       <div>
+      <h2>The Reality of Climate Change</h2>
+      <h4>Interaction Design, 2021</h4>
+     </div>
+    </div>
+
+    <div class="tom-nook">
+      <div>
+        <img src="tom-nook-portfolio.jpg" class="image-style">
+      </div>
+       <div>
+      <h2>Tom Nook Vector Art</h2>
+      <h4>Vector Graphics, 2021</h4>
+     </div>
+    </div>
+
+    <div class="poster-design">
+      <div>
+        <img src="poster-project-portfolio.jpg" class="image-style">
+      </div>
+       <div>
+      <h2>Sustainability Earth Day Poster</h2>
+      <h4>Adobe Illustrator, 2021</h4>
+     </div>
+    </div>
+
+    <div class="value-scale">
+      <div>
+        <img src="value-scale-art.jpg" class="image-style">
+      </div>
+       <div>
+      <h2>Value Scale Art</h2>
+      <h4>Paint and Micron Pens, 2021</h4>
+     </div>
+    </div>
+
+    <div class="proposal-mockup">
+      <div>
+        <img src="proposal-mockup.jpg" class="image-style">
+      </div>
+       <div>
+      <h2>Fictional Business Proposal</h2>
+      <h4>Adobe InDesign, 2021</h4>
+     </div>
+    </div>
+</body>
+</html>
